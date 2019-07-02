@@ -1,13 +1,20 @@
 <template>
   <div>
+    <header>
+      <nav>
+        <a href="/" class="nav-link button--green">Home</a>
+        <a href="/about" class="nav-link button--green">About</a>
+        <a href="/inspire" class="nav-link button--green">Inspire</a>
+      </nav>
+    </header>
     <nuxt />
   </div>
 </template>
 
 <style>
 html {
-  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
@@ -22,6 +29,10 @@ html {
 *:after {
   box-sizing: border-box;
   margin: 0;
+}
+
+nav {
+  padding: 15px;
 }
 
 .button--green {
